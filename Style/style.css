@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(to right,  #ecff1c, #ffcc80); /* Orange gradient on hover */
+    color: #181111;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #353030;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+  margin: 5px;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+}
+  
+#taskInput {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+    border-radius: 8px;
+    border: 2px solid #353030;
+    font-family: poppins;
+
+}
+
+li:not(.done):hover{
+    background: linear-gradient(to right,  #ecff1c, #ffcc80);}
+ 
+.addButton {
+    width: 35%;
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+    border-radius: 8px;
+    border: 2px solid #353030;
+    color: #181111;
+    font-size: 16px;
+    font-weight: 550;
+    font-family: poppins;
+}
+
+button:hover {
+    background: rgb(89, 229, 79);
+    cursor: pointer;
+}
+
+#taskInput:hover{
+    border: 2px solid  #9e841c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    width: 100%;
+}
+
+li{
+    
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    border: #353030 2px solid;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #F4F2EE;
+    margin-bottom: 10px;
+    transition: background-color 0.3s; 
+    
+}
+li span {
+   overflow-wrap: break-word;
+    width: 75%;         
+}
+
+.done, .delete{
+padding: 5px 10px;
+border-radius: 8px;
+border: 2px solid #353030;
+color: #181111;
+background-color: white;
+font-size: 20px;
+font-weight: 500;
+font-family: poppins;
+}
+
+.done:hover{
+    background-color: rgb(58, 216, 118);
+    cursor: pointer;
+}
+
+.delete:hover{
+   
+    background-color: #F92F60;
+    cursor: pointer;
+    
+}
+
+.delete{
+    margin-right: 0px;
+}
+
+
+
+.task{
+    font-size:19px;
+    font-weight: 500;
+    color: #181111;
+    font-family: "poppins", system-ui;
+}
+
+li.done {
+    background-color: rgb(58, 216, 118);
+}
+
+
+@media (max-width: 600px) {
+    li span {
+        overflow-wrap: break-word;
+         width: 60%;         
+     }
+     
+}
