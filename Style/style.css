@@ -45,7 +45,8 @@ h1 {
 }
 
 li:not(.done):hover{
-    background: linear-gradient(to right,  #ecff1c, #ffcc80);}
+    background: linear-gradient(to right,  #ecff1c, #ffcc80);
+}
  
 .addButton {
     width: 35%;
@@ -141,5 +142,9 @@ li.done {
         overflow-wrap: break-word;
          width: 60%;         
      }
+     .addButton {
+        font-size: 16px;
+    }
+
      
 }
