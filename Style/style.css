@@ -49,7 +49,7 @@ li:not(.done):hover{
 }
  
 .addButton {
-    width: 35%;
+    width: 40%;
     padding: 10px;
     margin: 5px 0px 10px 0px;
     border-radius: 8px;
@@ -138,13 +138,36 @@ li.done {
 
 
 @media (max-width: 600px) {
+    .container{
+       width: 275px;
+
+    }
     li span {
         overflow-wrap: break-word;
-         width: 60%;         
+         width: 71%;         
      }
      .addButton {
-        font-size: 16px;
+        width: 45;
+        font-size: 14px;
+        font-weight: 500;
     }
 
-     
+    .task{
+        font-size:14px;
+        font-weight: 450;
+        color: #181111;
+        font-family: "poppins", system-ui;
+    }
+
+    .done, .delete{
+        padding: 5px 8px;
+        border-radius: 8px;
+        border: 2px solid #353030;
+        color: #181111;
+        background-color: white;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: poppins;
+        }
+        
 }
