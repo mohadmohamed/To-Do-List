@@ -70,14 +70,16 @@ button:hover {
 }
 
 ul {
+    width: 100%;
     list-style-type: none;
     padding: 0;
     margin: 10px 0 0;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 li{
-    
     display: flex;
     height: auto;
     justify-content: space-between;
@@ -88,9 +90,9 @@ li{
     border-radius: 8px;
     background-color: #F4F2EE;
     margin-bottom: 10px;
-    transition: background-color 0.3s; 
-    
+    transition: background-color 0.3s;    
 }
+
 li span {
    overflow-wrap: break-word;
     width: 75%;         
