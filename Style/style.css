@@ -144,16 +144,17 @@ li.done {
     }
     li span {
         overflow-wrap: break-word;
-         width: 69%;         
+         width: 70%;         
      }
      .addButton {
-        width: 45;
+       width: fit-content;
+        padding:10px;
         font-size: 14px;
         font-weight: 500;
     }
 
     .task{
-        font-size:14px;
+        font-size:16px;
         font-weight: 450;
         color: #181111;
         font-family: "poppins", system-ui;
